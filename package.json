@@ -9,12 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "chart": "^0.1.2",
+    "chart.js": "^3.9.1",
+    "chartjs-adapter-moment": "^1.0.0",
+    "moment": "^2.29.4",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-flatpickr": "^3.10.13",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
   }
 }

@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Additional styles */
+@import './css/additional-styles/utility-patterns.css';
+@import './css/additional-styles/theme.css';
+
+
 html,
 body {
   padding: 0;
